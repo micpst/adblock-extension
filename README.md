@@ -11,6 +11,16 @@ Installation
 
 For details, see your browser's documentation.
 
+Updating ad URLs
+---
+
+To download the latest ad URLs entries, run the python script:
+```
+$ py parse-domains.py
+```
+
+If you want to change the ad URLs source, modify the script file.
+
 License
 ---
 All my code is MIT licensed. Libraries follow their respective licenses.

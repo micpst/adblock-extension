@@ -1,8 +1,10 @@
 import urllib.request
 
 if __name__ == "__main__":
+    # Ad URLs source:
     url = "https://raw.githubusercontent.com/AdAway/adaway.github.io/master/hosts.txt"
     
+    # Fill in the js file with the domain names:
     with open("blocked-urls.js", "w") as f: 
         f.write("const blockedUrls = [")
         
