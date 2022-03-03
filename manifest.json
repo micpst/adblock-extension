@@ -1,0 +1,10 @@
+{
+    "name": "Adblock", 
+    "description": "Ad URLs blocking extension",
+    "manifest_version": 2,
+    "version": "1.0", 
+    "background": {
+        "scripts": ["blocked-urls.js", "background.js"]
+    },
+    "permissions": ["webRequest", "webRequestBlocking", "<all_urls>"]
+}
